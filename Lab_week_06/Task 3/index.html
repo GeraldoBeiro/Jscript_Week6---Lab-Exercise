@@ -1,0 +1,40 @@
+<!---- Georgian College at ILAC
+24F Client-Side JavaScript - 200
+Student: Geraldo Beiro Neto
+Student ID: 200587023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+</head>
+<body>
+
+    <!-- Here I created a simple form for username and password -->
+    <h1>Login Form</h1>
+    <form id="loginForm">
+        <label for="username">Username (at least 5 charactes long):</label>
+        <input type="text" id="username" name="username" placeholder="Enter username"><br><br>
+
+        <label for="password">Password (minimum 8 charactes) :</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+
+        <!-- the erro rror message will be displayed here -->
+        <div class="error" id="errorMessage"></div>
+
+        <!-- now creating the submit button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <footer>
+        <small>Created by Geraldo Beiro // Student Number: 200587023</small>
+    </footer>
+
+</body>
+</html>
